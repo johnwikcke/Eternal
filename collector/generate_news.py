@@ -20,10 +20,14 @@ import argparse
 import logging
 from datetime import datetime, timezone
 from pathlib import Path
+import os
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add parent directory to Python path BEFORE imports
+current_dir = Path(__file__).parent
+parent_dir = current_dir.parent
+sys.path.insert(0, str(parent_dir))
 
+# Now import from collector package
 from collector.collector import NewsCollector
 from collector.sources import (
     ArxivFetcher,
