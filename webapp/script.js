@@ -38,6 +38,7 @@ const elements = {
     normalModeBtn: document.getElementById('normalMode'),
     advancedModeBtn: document.getElementById('advancedMode'),
     refreshBtn: document.getElementById('refreshBtn'),
+    clearBtn: document.getElementById('clearBtn'),
     advancedControls: document.getElementById('advancedControls'),
     dateSelector: document.getElementById('dateSelector'),
     statusBar: document.getElementById('statusBar'),
@@ -520,6 +521,41 @@ async function refreshNews() {
     }
 }
 
+/**
+ * Clear all news from display and cache
+ */
+function clearAllNews() {
+    // Confirm with user
+    const confirmed = confirm('🔥 Clear all news and cached data?\n\nThis will:\n- Clear the display\n- Remove all cached data\n- You can refresh to reload');
+    
+    if (!confirmed) {
+        return;
+    }
+    
+    // Clear display
+    elements.newsContainer.innerHTML = '<div class="text-center" style="padding: 2rem;"><h2>🔥 All news cleared!</h2><p style="color: #6b7280; margin-top: 1rem;">Click "Refresh" to reload news</p></div>';
+    
+    // Clear all cache
+    try {
+        const keys = Object.keys(localStorage);
+        keys.forEach(key => {
+            if (key.startsWith(CONFIG.CACHE_PREFIX)) {
+                localStorage.removeItem(key);
+            }
+        });
+        console.log('Cleared all cached data');
+    } catch (error) {
+        console.warn('Failed to clear cache:', error);
+    }
+    
+    // Update UI
+    elements.lastUpdated.textContent = 'Cleared';
+    elements.itemCount.textContent = '0 items';
+    
+    // Show success message
+    hideError();
+}
+
 // ===== Online/Offline Handling =====
 
 function handleOnline() {
@@ -539,6 +575,7 @@ function handleOffline() {
 elements.normalModeBtn.addEventListener('click', switchToNormal);
 elements.advancedModeBtn.addEventListener('click', switchToAdvanced);
 elements.refreshBtn.addEventListener('click', refreshNews);
+elements.clearBtn.addEventListener('click', clearAllNews);
 elements.dateSelector.addEventListener('change', (e) => {
     const selectedDate = e.target.value;
     if (selectedDate) {
