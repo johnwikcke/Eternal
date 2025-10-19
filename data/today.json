@@ -1,6 +1,6 @@
 {
   "date": "2025-10-19",
-  "last_updated": "2025-10-19T08:06:59.523525+00:00",
+  "last_updated": "2025-10-19T08:18:45.579312+00:00",
   "collection_status": {
     "total_sources": 6,
     "successful": 4,
@@ -18,91 +18,91 @@
         "title": "Model statistics of the 50 most downloaded entities on Hugging Face",
         "summary": "Model statistics of the 50 most downloaded entities on Hugging Face",
         "link": "https://huggingface.co/blog/lbourdois/huggingface-models-stats",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.296548+00:00"
       },
       {
         "title": "AI for Food Allergies",
         "summary": "AI for Food Allergies",
         "link": "https://huggingface.co/blog/hugging-science/ai-for-food-allergies",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.296728+00:00"
       },
       {
         "title": "Announcing Hugging Face Fundamentals: A New Learning Track on DataCamp",
         "summary": "Announcing Hugging Face Fundamentals: A New Learning Track on DataCamp",
         "link": "https://huggingface.co/blog/huggingface/datacamp-ai-courses",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.296874+00:00"
       },
       {
         "title": "Introducing the Massive Legal Embedding Benchmark (MLEB)",
         "summary": "Introducing the Massive Legal Embedding Benchmark (MLEB)",
         "link": "https://huggingface.co/blog/isaacus/introducing-mleb",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.297020+00:00"
       },
       {
         "title": "Granite Embedding R2: Setting New Standards for Enterprise Retrieval",
         "summary": "Granite Embedding R2: Setting New Standards for Enterprise Retrieval",
         "link": "https://huggingface.co/blog/hansolosan/granite-embedding-r2",
-        "published": "2025-10-19T08:07:01.066120+00:00"
-      },
-      {
-        "title": "Visualizing How VLMs Work",
-        "summary": "Visualizing How VLMs Work",
-        "link": "https://huggingface.co/blog/not-lain/vlms",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.297156+00:00"
       },
       {
         "title": "mem-agent: Equipping LLM Agents with Memory Using RL",
         "summary": "mem-agent: Equipping LLM Agents with Memory Using RL",
         "link": "https://huggingface.co/blog/driaforall/mem-agent-blog",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.297296+00:00"
+      },
+      {
+        "title": "Visualizing How VLMs Work",
+        "summary": "Visualizing How VLMs Work",
+        "link": "https://huggingface.co/blog/not-lain/vlms",
+        "published": "2025-10-19T08:18:46.297453+00:00"
       },
       {
         "title": "High-Quality Datasets for Far-Field ASR (Treble Technologies x Hugging Face)",
         "summary": "High-Quality Datasets for Far-Field ASR (Treble Technologies x Hugging Face)",
         "link": "https://huggingface.co/blog/treble-technologies/treble10-announcement-treble-x-hugging-face",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.297602+00:00"
       },
       {
         "title": "Nemotron-Personas-India: Synthesized Data for Sovereign AI",
         "summary": "Nemotron-Personas-India: Synthesized Data for Sovereign AI",
         "link": "https://huggingface.co/blog/nvidia/nemotron-personas-india",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.297743+00:00"
       },
       {
         "title": "Ring-flash-linear-2.0: A Highly Efficient Hybrid Architecture for Test-Time Scaling",
         "summary": "Ring-flash-linear-2.0: A Highly Efficient Hybrid Architecture for Test-Time Scaling",
         "link": "https://huggingface.co/blog/RichardBian/ring-flash-linear-2-moe-release",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.297884+00:00"
       },
       {
         "title": "Code a simple RAG from scratch",
         "summary": "Code a simple RAG from scratch",
         "link": "https://huggingface.co/blog/ngxson/make-your-own-rag",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.298026+00:00"
       },
       {
         "title": "DeepSeek-R1 Dissection: Understanding PPO & GRPO Without Any Prior Reinforcement Learning Knowledge",
         "summary": "DeepSeek-R1 Dissection: Understanding PPO & GRPO Without Any Prior Reinforcement Learning Knowledge",
         "link": "https://huggingface.co/blog/NormalUhr/grpo",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.298164+00:00"
       },
       {
         "title": "Small Language Models (SLM): A Comprehensive Overview",
         "summary": "Small Language Models (SLM): A Comprehensive Overview",
         "link": "https://huggingface.co/blog/jjokah/small-language-model",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.298299+00:00"
       },
       {
         "title": "There is no such thing as a tokenizer-free lunch",
         "summary": "There is no such thing as a tokenizer-free lunch",
         "link": "https://huggingface.co/blog/catherinearnett/in-defense-of-tokenizers",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.298447+00:00"
       },
       {
         "title": "How I Trained Action Chunking Transformer (ACT) on SO-101: My Journey, Gotchas, and Lessons",
         "summary": "How I Trained Action Chunking Transformer (ACT) on SO-101: My Journey, Gotchas, and Lessons",
         "link": "https://huggingface.co/blog/sherryxychen/train-act-on-so-101",
-        "published": "2025-10-19T08:07:01.066120+00:00"
+        "published": "2025-10-19T08:18:46.298586+00:00"
       }
     ],
     "producthunt": [],
@@ -192,6 +192,12 @@
         "published": "2025-10-18T07:28:48+00:00"
       },
       {
+        "title": "[r/claudeai] Claude Code is amazing,",
+        "summary": "Really loving it so much. ive spent all day working on things and not hit limits. i can't tell anymore when its using opus 4.1 and when its using sonnet 4.5, i trust them both at this point. NEVER hit usage caps on claude code. only once the other...",
+        "link": "https://www.reddit.com/r/ClaudeAI/comments/1oagdcp/claude_code_is_amazing/",
+        "published": "2025-10-19T04:20:12+00:00"
+      },
+      {
         "title": "[r/claudeai] Hate to say it, but Haiku’s speed just makes it more dangerous… “Un-Haikuing” has now become a term I use :/",
         "summary": "Now, I was admittedly being pretty dumb in retrospect but I figure sharing my tale of woe may help someone else avoid a similar fate so, here we are. My mistake? I started a second Claude Code window, gave Haiku a test to debug with and left it to...",
         "link": "https://www.reddit.com/r/ClaudeAI/comments/1oabqet/hate_to_say_it_but_haikus_speed_just_makes_it/",
@@ -202,12 +208,6 @@
         "summary": "Considering pulling the trigger on Claude Code but want to cut through the hype first. For those of you who've been using it for real work (not just demos) What workflows has it genuinely improved? What tasks is it legitimately better at than your...",
         "link": "https://www.reddit.com/r/ClaudeAI/comments/1oa89pm/those_actually_using_claude_code_daily_is_it/",
         "published": "2025-10-18T21:41:52+00:00"
-      },
-      {
-        "title": "[r/claudeai] Claude Code is amazing,",
-        "summary": "Really loving it so much. ive spent all day working on things and not hit limits. i can't tell anymore when its using opus 4.1 and when its using sonnet 4.5, i trust them both at this point. NEVER hit usage caps on claude code. only once the other...",
-        "link": "https://www.reddit.com/r/ClaudeAI/comments/1oagdcp/claude_code_is_amazing/",
-        "published": "2025-10-19T04:20:12+00:00"
       },
       {
         "title": "[r/claudeai] Claude Skills lets you teach AI your process once and stop rewriting prompts - here's the practical playbook",
@@ -233,31 +233,31 @@
         "title": "Google AI tool pinpoints genetic drivers of cancer",
         "summary": "Healthcare & Wellness AI",
         "link": "https://www.artificialintelligence-news.com/news/google-ai-tool-pinpoints-genetic-drivers-of-cancer/",
-        "published": "2025-10-19T08:07:13.793399+00:00"
+        "published": "2025-10-19T08:18:54.391139+00:00"
       },
       {
         "title": "South Korea scraps AI textbook programme",
         "summary": "Education AI",
         "link": "https://www.artificialintelligence-news.com/news/south-korea-ai-schools-programme-project-failure/",
-        "published": "2025-10-19T08:07:13.793399+00:00"
+        "published": "2025-10-19T08:18:54.391593+00:00"
       },
       {
         "title": "What if AI is the next dot-com bubble?",
         "summary": "Artificial Intelligence",
         "link": "https://www.artificialintelligence-news.com/news/what-if-ai-is-the-next-dot-com-bubble/",
-        "published": "2025-10-19T08:07:13.793399+00:00"
+        "published": "2025-10-19T08:18:54.392003+00:00"
       },
       {
         "title": "The role of machine learning in enhancing cloud-native container security",
         "summary": "Artificial Intelligence, How It Works, Inside AI, Utilities",
         "link": "https://www.artificialintelligence-news.com/news/the-role-of-machine-learning-in-enhancing-cloud-native-container-security/",
-        "published": "2025-10-19T08:07:13.793399+00:00"
+        "published": "2025-10-19T08:18:54.392398+00:00"
       },
       {
         "title": "Google’s Veo 3 AI video creation tools are now widely available",
         "summary": "AI in Action, AI Market Trends, Artificial Intelligence",
         "link": "https://www.artificialintelligence-news.com/news/google-veo-3-ai-video-creation-tools-now-widely-available/",
-        "published": "2025-10-19T08:07:13.804546+00:00"
+        "published": "2025-10-19T08:18:54.393018+00:00"
       }
     ],
     "crescendo": [
@@ -265,25 +265,25 @@
         "title": "The Information (TITV): Matt Price Discusses Crescendo’s AI Rollup Strategy",
         "summary": "The Information (TITV): Matt Price Discusses Crescendo’s AI Rollup Strategy",
         "link": "https://crescendo.ai/news/the-information-titv-matt-price-discusses-crescendos-ai-rollup-strategy",
-        "published": "2025-10-19T08:07:15.324111+00:00"
+        "published": "2025-10-19T08:18:54.866015+00:00"
       },
       {
         "title": "All NEWS",
         "summary": "All NEWS",
         "link": "https://crescendo.ai/news/latest-ai-news-and-updates",
-        "published": "2025-10-19T08:07:15.324111+00:00"
+        "published": "2025-10-19T08:18:54.868528+00:00"
       },
       {
         "title": "The Latest AI News and AI Breakthroughs that Matter Most: 2025",
         "summary": "The Latest AI News and AI Breakthroughs that Matter Most: 2025",
         "link": "https://crescendo.ai/news/latest-ai-news-and-updates",
-        "published": "2025-10-19T08:07:15.340712+00:00"
+        "published": "2025-10-19T08:18:54.873110+00:00"
       },
       {
         "title": "Crescendo to Exceed $100M ARR as Global Adoption of the First AI-Native Contact Center Accelerates",
         "summary": "Crescendo to Exceed $100M ARR as Global Adoption of the First AI-Native Contact Center Accelerates",
         "link": "https://crescendo.ai/news/crescendo-to-exceed-100m-arr-as-global-adoption-of-its-first-ai-native-contact-center-accelerates",
-        "published": "2025-10-19T08:07:15.340712+00:00"
+        "published": "2025-10-19T08:18:54.873574+00:00"
       }
     ]
   }
