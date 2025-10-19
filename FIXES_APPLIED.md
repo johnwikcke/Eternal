@@ -43,41 +43,41 @@ Data endpoints:
 - Index: https://johnwikcke.github.io/Eternal/data/index.json
 - Specific date: https://johnwikcke.github.io/Eternal/data/2025-10-19.json
 
+## ✅ Changes Pushed to GitHub
+
+The fixes have been committed and pushed:
+- Commit: `d67f723`
+- Message: "Fix: Add collector __init__.py and auto-detect API URL"
+- Status: Successfully pushed to main branch
+
 ## Next Steps
 
-1. **Commit and Push Changes:**
-```bash
-git add .
-git commit -m "Fix: Add collector __init__.py and auto-detect API URL"
-git push
-```
-
-2. **Enable GitHub Pages:**
+1. **Enable GitHub Pages:**
    - Go to: https://github.com/johnwikcke/Eternal/settings/pages
    - Source: Deploy from a branch
    - Branch: `main`
    - Folder: `/ (root)`
    - Click Save
 
-3. **Set GitHub Actions Permissions:**
+2. **Set GitHub Actions Permissions:**
    - Go to: https://github.com/johnwikcke/Eternal/settings/actions
    - Under "Workflow permissions", select:
      - ✅ Read and write permissions
    - Click Save
 
-4. **Trigger First Collection:**
+3. **Trigger First Collection:**
    - Go to: https://github.com/johnwikcke/Eternal/actions
    - Click "Auto Update AI News"
    - Click "Run workflow"
    - Select branch: `main`
    - Click "Run workflow"
 
-5. **Wait for Completion:**
+4. **Wait for Completion:**
    - The workflow will take 5-10 minutes
    - It will collect real AI news from all 6 sources
    - Data will be committed to the repository
 
-6. **Access Your Site:**
+5. **Access Your Site:**
    - Visit: https://johnwikcke.github.io/Eternal/
    - The web app will automatically fetch data from the correct URL
    - No CORS errors!
