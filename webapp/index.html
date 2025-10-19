@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eternal - AI News Aggregator. Stay updated with the latest AI research, tools, and developments from multiple authoritative sources.">
+    <meta name="keywords" content="AI, artificial intelligence, machine learning, news, aggregator, research">
+    <title>Eternal - AI News Aggregator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-icon">🧠</span>
+                    Eternal
+                </h1>
+                <p class="tagline">AI News Aggregator</p>
+            </div>
+            
+            <div class="controls">
+                <div class="mode-toggle">
+                    <button id="normalMode" class="mode-btn active" aria-label="Normal Mode">
+                        Normal
+                    </button>
+                    <button id="advancedMode" class="mode-btn" aria-label="Advanced Mode">
+                        Advanced
+                    </button>
+                </div>
+                <button id="refreshBtn" class="refresh-btn" aria-label="Refresh News">
+                    <span class="refresh-icon">↻</span>
+                    Refresh
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Advanced Mode Controls -->
+            <div id="advancedControls" class="advanced-controls hidden">
+                <label for="dateSelector" class="date-label">Select Date:</label>
+                <select id="dateSelector" class="date-selector">
+                    <option value="">Loading dates...</option>
+                </select>
+            </div>
+
+            <!-- Status Bar -->
+            <div id="statusBar" class="status-bar">
+                <div class="status-info">
+                    <span id="lastUpdated" class="last-updated">Loading...</span>
+                    <span id="offlineIndicator" class="offline-indicator hidden">
+                        📡 Offline Mode
+                    </span>
+                </div>
+                <div id="itemCount" class="item-count"></div>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loadingIndicator" class="loading-indicator">
+                <div class="spinner"></div>
+                <p>Fetching AI news...</p>
+            </div>
+
+            <!-- Error Message -->
+            <div id="errorMessage" class="error-message hidden">
+                <div class="error-content">
+                    <span class="error-icon">⚠️</span>
+                    <p id="errorText"></p>
+                </div>
+            </div>
+
+            <!-- News Container -->
+            <div id="newsContainer" class="news-container">
+                <!-- News items will be dynamically inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                Powered by GitHub Actions • Updated twice daily (05:00 & 17:00 UTC)
+            </p>
+            <p class="footer-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="separator">•</span>
+                <a href="#" id="aboutLink">About</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
