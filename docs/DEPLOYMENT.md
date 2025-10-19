@@ -38,7 +38,7 @@ git push -u origin main
 5. Click **Save**
 6. Wait 1-2 minutes for deployment
 
-Your site will be available at: `https://YOUR_USERNAME.github.io/eternal/`
+Your site will be available at: `https://johnwikcke.github.io/eternal/`
 
 ## Step 3: Configure GitHub Actions Permissions
 
@@ -57,7 +57,7 @@ Edit `webapp/script.js` and update the API_BASE URL:
 const CONFIG = {
     API_BASE: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
         ? '../data'
-        : 'https://YOUR_USERNAME.github.io/eternal/data',  // Update this line
+        : 'https://johnwikcke.github.io/eternal/data',  // Update this line
     // ...
 };
 ```

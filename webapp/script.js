@@ -6,10 +6,20 @@
 
 // ===== Configuration =====
 const CONFIG = {
-    // Update this with your GitHub username after deployment
-    API_BASE: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-        ? '../data'  // Local development
-        : 'https://YOUR_USERNAME.github.io/eternal/data',  // Production
+    // Automatically detect the correct API base URL
+    API_BASE: (() => {
+        const hostname = window.location.hostname;
+        
+        // Local development
+        if (hostname === 'localhost' || hostname === '127.0.0.1') {
+            return '../data';
+        }
+        
+        // Production - use relative path for same-origin (no CORS issues)
+        // This works for both GitHub Pages and custom domains
+        const basePath = window.location.pathname.replace(/\/webapp\/.*$/, '');
+        return `${window.location.origin}${basePath}/data`;
+    })(),
     CACHE_EXPIRY: 12 * 60 * 60 * 1000, // 12 hours in milliseconds
     CACHE_PREFIX: 'eternal_'
 };
